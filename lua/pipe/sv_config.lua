@@ -48,7 +48,7 @@ PIPE.Config["Contact"] = "ADMIN-CONTACT-HERE"
 --###################################################
 
 -- Country Code Whitelist | Add countries which should be whitelisted in this table. A list can be found here (the Alpha 2 codes): http://www.nationsonline.org/oneworld/country_code_list.htm | ZZ means invalid
-PIPE.Whitelist["_countryCode"] = {"BE", "FR", "CA", "CH"} -- Has to look like this;  No Country: {} | One Country: {"DE"} | Multiple Countries: {"DE","FR","IT"}        DONT FORGET THE "" 
+PIPE.Whitelist["_countryCode"] = {"BE", "FR", "CA", "CH", "RE"} -- Has to look like this;  No Country: {} | One Country: {"DE"} | Multiple Countries: {"DE","FR","IT"}        DONT FORGET THE "" 
 
 -- ISP Whitelist | ADD the AS Number of ISP which should bypass IP reputation check
 PIPE.Whitelist["_ASN"] = {"3215", "12322", "5410", "8228", "15557", "51207"}
